@@ -3,7 +3,8 @@ const dialogo = [
   "AAAA OI MEEEEENINAS 💅✨",
   "Ai juro, migas, cês suaram GLITTER pra chegar aqui, vey…",
   "Passaram por cada BABADÃO que eu e meu squad montou",
-  "Mesmo perdendo umas migas no caminho... drama total…",
+  "Mesmo perdendo umas migas no caminho",
+  "drama total…",
   "...",
   "Eu tava me perguntando:",
   "Quantas de vocês ainda tão vivas pra levar APAVORO? 😳💀",
@@ -223,3 +224,4 @@ input.addEventListener("change", () => {
 });
 
 window.onload = startDialogo;
+
