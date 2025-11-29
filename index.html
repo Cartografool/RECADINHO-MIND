@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECADINHO</title>
+    <link rel="icon" href="stuff/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cursor customizado -->
+    <div id="cursor">
+      <img src="stuff/cursor.png" alt="cursor" />
+    </div>
+
+    <!-- Camada escura / filtro CRT -->
+    <div id="overlay"></div>
+
+    <!-- Personagem / rosto -->
+    <img id="profilePic" src="face/face.png" alt="rosto" />
+
+    <!-- Caixa de diálogo -->
+    <p id="dialogueBox"></p>
+
+    <!-- Campo de entrada do usuário -->
+    <input
+      type="number"
+      id="user-input"
+      min="0"
+      placeholder="Digite um número..."
+      autocomplete="off"
+    />
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
